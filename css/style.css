@@ -1,14 +1,12 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #e0ebeb;
+	background: #e5e4e2;
 }
 
 #about_image {
 	border-radius: 100%;
-}
-
-#project_title {
-	color: white;
+	height: 250px;
+	width: 250px;
 }
 
 #projects_body {
@@ -19,26 +17,40 @@ body {
 }
 
 #about{
-	background-color: #d1e0e0;
+	background-color: #F0F8FF;
+}
+#about h3{
+	color: #1ca9c9;
+
 }
 
 .navbar {
-	background-color: #a3c2c2;
+	background-color: #778899;
+	margin-left: -15px;
+	margin-right: -15px;
+	border-bottom: solid 4px #e32636;
 }
+#navbarNav a{
+	color: black;
+	text-transform: uppercase;
 
+}
+#projects{
+	background: #778899;
+}
+#project_title{
+	color: black;
+}
 #footer {
 	padding: 30px;
 	text-align: center;
 }
 
-.navbar-nav > li > a.active,
 .navbar-nav > li > a:hover {
-	background-color: #669999;
+	background-color: #91a3b0;
+
 }
 
-.navbar-nav > li > .nav-link1 a:hover {
-	background-color: #669999;
-}
 
 .card-title {
 	font-family: serif;
